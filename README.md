@@ -26,4 +26,4 @@ ipm install flowchart
 
 It will be rendered as:
 
-![](https://github.com/inkdropapp/flowchart/raw/master/docs/images/example-01.png)
+![](https://github.com/inkdropapp/inkdrop-flowchart/raw/master/docs/images/example-01.png)
