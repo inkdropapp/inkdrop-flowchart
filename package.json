@@ -1,0 +1,15 @@
+{
+  "name": "markdown-flowchart",
+  "main": "./lib/markdown-flowchart",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/inkdropapp/markdown-flowchart",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": ">=2.1.0 <3.0.0"
+  },
+  "dependencies": {
+    "flowchart.js": "^1.6.3"
+  }
+}
