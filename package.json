@@ -1,10 +1,10 @@
 {
-  "name": "markdown-flowchart",
-  "main": "./lib/markdown-flowchart",
+  "name": "flowchart",
+  "main": "./lib/index",
   "version": "0.0.0",
   "description": "A plugin for drawing flowchart within Markdown",
   "keywords": [],
-  "repository": "https://github.com/inkdropapp/markdown-flowchart",
+  "repository": "https://github.com/inkdropapp/flowchart",
   "license": "MIT",
   "engines": {
     "inkdrop": ">=2.1.0 <3.0.0"

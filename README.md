@@ -5,7 +5,7 @@ A plugin for drawing flowchart using [flowchart.js](http://flowchart.js.org/) in
 ## Install
 
 ```shell
-ipm install markdown-flowchart
+ipm install flowchart
 ```
 
 ## Usage
@@ -26,4 +26,4 @@ ipm install markdown-flowchart
 
 It will be rendered as:
 
-![](https://github.com/inkdropapp/inkdrop-markdown-flowchart/raw/master/docs/images/example-01.png)
+![](https://github.com/inkdropapp/markdown-flowchart/raw/master/docs/images/example-01.png)
