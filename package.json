@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "A plugin for drawing flowchart within Markdown",
   "keywords": [],
-  "repository": "https://github.com/inkdropapp/flowchart",
+  "repository": "https://github.com/inkdropapp/inkdrop-flowchart",
   "license": "MIT",
   "engines": {
     "inkdrop": ">=2.1.0 <3.0.0"
