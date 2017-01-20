@@ -7,7 +7,7 @@
   "repository": "https://github.com/inkdropapp/inkdrop-flowchart",
   "license": "MIT",
   "engines": {
-    "inkdrop": ">=2.1.0 <3.0.0"
+    "inkdrop": "^3.1.1"
   },
   "dependencies": {
     "flowchart.js": "^1.6.3"
