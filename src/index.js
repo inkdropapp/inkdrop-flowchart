@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
-import { React } from 'inkdrop'
+import * as React from 'react'
 import flowchart from 'flowchart.js'
+import { markdownRenderer } from 'inkdrop'
 
 class Flowchart extends React.Component {
   static propTypes = {
@@ -35,16 +36,14 @@ class Flowchart extends React.Component {
 
 module.exports = {
   activate() {
-    const { MDEPreview } = inkdrop.components.classes
-    if (MDEPreview) {
-      MDEPreview.remarkCodeComponents.flowchart = Flowchart
+    if (markdownRenderer) {
+      markdownRenderer.remarkCodeComponents.flowchart = Flowchart
     }
   },
 
   deactivate() {
-    const { MDEPreview } = inkdrop.components.classes
-    if (MDEPreview) {
-      MDEPreview.remarkCodeComponents.flowchart = null
+    if (markdownRenderer) {
+      markdownRenderer.remarkCodeComponents.flowchart = null
     }
   }
 }
