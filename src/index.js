@@ -22,6 +22,7 @@ class Flowchart extends React.Component {
       const diagram = flowchart.parse(code)
       this.canvas.innerHTML = ''
       diagram.drawSVG(this.canvas)
+      this.duplicateMarkerBlock()
     } catch (error) {
       this.canvas.innerHTML = `
         <span class="ui error message mde-error-message">
@@ -30,6 +31,17 @@ class Flowchart extends React.Component {
           <p><a href="https://flowchart.js.org/" target="_blank">How to write flowchart</a></p>
         </span>
       `
+    }
+  }
+  duplicateMarkerBlock () {
+    const { canvas } = this
+    const marker = document.querySelector('path#raphael-marker-block')
+    if (marker && !canvas.querySelector('path#raphael-marker-block')) {
+      const clonedMarker = marker.cloneNode()
+      const defs = canvas.querySelector('defs')
+      if (defs) {
+        defs.appendChild(clonedMarker)
+      }
     }
   }
 }
