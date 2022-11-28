@@ -1,12 +1,8 @@
-import PropTypes from 'prop-types'
 import * as React from 'react'
 import flowchart from 'flowchart.js'
 import { markdownRenderer } from 'inkdrop'
 
 class Flowchart extends React.Component {
-  static propTypes = {
-    children: PropTypes.node
-  }
   componentDidMount() {
     this.renderDiagram()
   }
