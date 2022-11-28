@@ -1,7 +1,7 @@
 {
   "name": "flowchart",
   "main": "./lib/index",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enables flowchart support within Markdown",
   "keywords": [],
   "repository": "https://github.com/inkdropapp/inkdrop-flowchart",
