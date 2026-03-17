@@ -14,7 +14,7 @@
     "inkdrop": "^4.x"
   },
   "dependencies": {
-    "flowchart.js": "^1.13.0"
+    "flowchart.js": "^1.18.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
