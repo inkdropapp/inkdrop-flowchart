@@ -1,5 +1,8 @@
 # flowchart
 
+> [!NOTE]
+> The [Mermaid](https://my.inkdrop.app/plugins/mermaid) plugin is recommended.
+
 A plugin for drawing flowchart using [flowchart.js](http://flowchart.js.org/) in Markdown code block.
 
 ## Install
