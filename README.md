@@ -33,6 +33,11 @@ It will be rendered as:
 
 ## Changelog
 
+### 1.0.5
+
+- Migrate from LESS to CSS
+- Bump up flowchart.js to 1.18.0
+
 ### 1.0.3
 
 - fix(export): arrows don't appear in exported documents (Thanks [James](https://forum.inkdrop.app/t/arrows-on-flowchart-dont-make-it-to-pdf/1498))
